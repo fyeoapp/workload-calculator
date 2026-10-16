@@ -1,0 +1,13 @@
+MTH 240 "Weekly Online Quiz 0": listed in Week 1 but dated 2026-01-15 (Week 2); date used
+CHY 211 "Laboratory Techniques Report": weight not matched, left blank
+AER 222 "Project Presentation": weight not matched, left blank
+ECN 801 "Midterm 2": listed in Week 11 but dated 2026-03-22 (Week 10); date used
+BME 100 "Each group must present the findings of their project in ...": weight not matched, left blank
+MEC 222 "Manual Studio 1": weight not matched, left blank
+MEC 222 "Manual Studio 2": weight not matched, left blank
+MEC 222 "Manual Studio 3": weight not matched, left blank
+MEC 222 "Manual Studio 4": weight not matched, left blank
+MEC 222 "CAD Assessment": weight not matched, left blank
+MEC 222 "Manual Studio 5": weight not matched, left blank
+MEC 222 "Manual Assignment": weight not matched, left blank
+MEC 222 "Manual Studio 6": weight not matched, left blank

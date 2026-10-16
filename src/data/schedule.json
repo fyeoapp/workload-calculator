@@ -1,0 +1,2606 @@
+{
+ "dataVersion": "2026-10-15",
+ "programs": [
+  {
+   "id": "winter",
+   "name": "Winter term",
+   "year": 2026,
+   "courses": [
+    {
+     "id": "MTH240",
+     "code": "MTH 240",
+     "programId": "winter"
+    },
+    {
+     "id": "ELE202",
+     "code": "ELE 202",
+     "programId": "winter"
+    },
+    {
+     "id": "CHY211",
+     "code": "CHY 211",
+     "programId": "winter"
+    },
+    {
+     "id": "CVL207",
+     "code": "CVL 207",
+     "programId": "winter"
+    },
+    {
+     "id": "CPS188",
+     "code": "CPS 188",
+     "programId": "winter"
+    },
+    {
+     "id": "AER222",
+     "code": "AER 222",
+     "programId": "winter"
+    },
+    {
+     "id": "PCS125",
+     "code": "PCS 125",
+     "programId": "winter"
+    },
+    {
+     "id": "MTL200",
+     "code": "MTL 200",
+     "programId": "winter"
+    },
+    {
+     "id": "ECN801",
+     "code": "ECN 801",
+     "programId": "winter"
+    },
+    {
+     "id": "BME100",
+     "code": "BME 100",
+     "programId": "winter"
+    },
+    {
+     "id": "CHE200",
+     "code": "CHE 200",
+     "programId": "winter"
+    },
+    {
+     "id": "CPS125",
+     "code": "CPS 125",
+     "programId": "winter"
+    },
+    {
+     "id": "MEC222",
+     "code": "MEC 222",
+     "programId": "winter"
+    }
+   ],
+   "weeks": [
+    {
+     "id": "w1",
+     "label": "Week 1",
+     "kind": "week",
+     "start": "2026-01-05",
+     "end": "2026-01-11"
+    },
+    {
+     "id": "w2",
+     "label": "Week 2",
+     "kind": "week",
+     "start": "2026-01-12",
+     "end": "2026-01-18"
+    },
+    {
+     "id": "w3",
+     "label": "Week 3",
+     "kind": "week",
+     "start": "2026-01-19",
+     "end": "2026-01-25"
+    },
+    {
+     "id": "w4",
+     "label": "Week 4",
+     "kind": "week",
+     "start": "2026-01-26",
+     "end": "2026-02-01"
+    },
+    {
+     "id": "w5",
+     "label": "Week 5",
+     "kind": "week",
+     "start": "2026-02-02",
+     "end": "2026-02-08"
+    },
+    {
+     "id": "w6",
+     "label": "Week 6",
+     "kind": "week",
+     "start": "2026-02-09",
+     "end": "2026-02-15"
+    },
+    {
+     "id": "reading",
+     "label": "Reading week",
+     "kind": "reading",
+     "start": "2026-02-16",
+     "end": "2026-02-22"
+    },
+    {
+     "id": "w7",
+     "label": "Week 7",
+     "kind": "week",
+     "start": "2026-02-23",
+     "end": "2026-03-01"
+    },
+    {
+     "id": "w8",
+     "label": "Week 8",
+     "kind": "week",
+     "start": "2026-03-02",
+     "end": "2026-03-08"
+    },
+    {
+     "id": "w9",
+     "label": "Week 9",
+     "kind": "week",
+     "start": "2026-03-09",
+     "end": "2026-03-15"
+    },
+    {
+     "id": "w10",
+     "label": "Week 10",
+     "kind": "week",
+     "start": "2026-03-16",
+     "end": "2026-03-22"
+    },
+    {
+     "id": "w11",
+     "label": "Week 11",
+     "kind": "week",
+     "start": "2026-03-23",
+     "end": "2026-03-29"
+    },
+    {
+     "id": "w12",
+     "label": "Week 12",
+     "kind": "week",
+     "start": "2026-03-30",
+     "end": "2026-04-05"
+    },
+    {
+     "id": "w13",
+     "label": "Week 13",
+     "kind": "week",
+     "start": "2026-04-06",
+     "end": "2026-04-12"
+    },
+    {
+     "id": "exam",
+     "label": "Exam period",
+     "kind": "exam",
+     "start": "2026-04-13",
+     "end": "2026-04-25"
+    }
+   ],
+   "assessments": [
+    {
+     "id": "MTH240-w2-weekly-online-quiz-0",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 0",
+     "type": "quiz",
+     "weekId": "w2",
+     "date": "2026-01-15",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w2-weekly-online-quiz-1",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 1",
+     "type": "quiz",
+     "weekId": "w2",
+     "date": "2026-01-18",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w3-weekly-online-quiz-2",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 2",
+     "type": "quiz",
+     "weekId": "w3",
+     "date": "2026-01-25",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w3-lab-progress-check-quiz-1",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Lab Progress Check Quiz 1",
+     "type": "quiz",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 3.33
+     }
+    },
+    {
+     "id": "MTH240-w4-weekly-online-quiz-3",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 3",
+     "type": "quiz",
+     "weekId": "w4",
+     "date": "2026-02-01",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w5-weekly-online-quiz-4",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 4",
+     "type": "quiz",
+     "weekId": "w5",
+     "date": "2026-02-08",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w6-weekly-online-quiz-5",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 5",
+     "type": "quiz",
+     "weekId": "w6",
+     "date": "2026-02-15",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w7-midterm-test",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Midterm Test",
+     "type": "midterm",
+     "weekId": "w7",
+     "date": "2026-02-27",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "default": 35
+     }
+    },
+    {
+     "id": "MTH240-w8-weekly-online-quiz-6",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 6",
+     "type": "quiz",
+     "weekId": "w8",
+     "date": "2026-03-08",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w8-lab-progress-check-quiz-2",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Lab Progress Check Quiz 2",
+     "type": "quiz",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 3.33
+     }
+    },
+    {
+     "id": "MTH240-w9-weekly-online-quiz-7",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 7",
+     "type": "quiz",
+     "weekId": "w9",
+     "date": "2026-03-15",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w10-weekly-online-quiz-8",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 8",
+     "type": "quiz",
+     "weekId": "w10",
+     "date": "2026-03-22",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w11-weekly-online-quiz-9",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 9",
+     "type": "quiz",
+     "weekId": "w11",
+     "date": "2026-03-29",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-w11-lab-progress-check-quiz-3",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Lab Progress Check Quiz 3",
+     "type": "quiz",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 3.33
+     }
+    },
+    {
+     "id": "MTH240-w12-weekly-online-quiz-10",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Weekly Online Quiz 10",
+     "type": "quiz",
+     "weekId": "w12",
+     "date": "2026-04-05",
+     "time": "23:55",
+     "precision": "exact",
+     "weights": {
+      "default": 0.91
+     }
+    },
+    {
+     "id": "MTH240-exam-final-exam",
+     "courseId": "MTH240",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 40
+     }
+    },
+    {
+     "id": "ELE202-w2-tutorial-1-quiz-1",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Tutorial 1 & Quiz 1",
+     "type": "quiz",
+     "weekId": "w2",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2
+     }
+    },
+    {
+     "id": "ELE202-w3-lab-1-introduction-to-basic-lab-equipmen",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Lab 1: Introduction to Basic Lab Equipment, Circuit Tools...",
+     "type": "lab",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "ELE202-w4-tutorial-2-quiz-2",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Tutorial 2 & Quiz 2",
+     "type": "quiz",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2
+     }
+    },
+    {
+     "id": "ELE202-w5-lab-2-basic-concepts-relationships-and-l",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Lab 2: Basic Concepts, Relationships and Laws of Electric...",
+     "type": "lab",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "ELE202-w6-tutorial-3-quiz-3",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Tutorial 3 & Quiz 3",
+     "type": "quiz",
+     "weekId": "w6",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2
+     }
+    },
+    {
+     "id": "ELE202-w7-lab-3-resistive-network-analysis-methods",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Lab 3: Resistive Network Analysis Methods – Nodal and Mesh",
+     "type": "lab",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "ELE202-w8-lab-4-circuit-theorems-and-the-superposi",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Lab 4: Circuit Theorems and the Superposition Principle",
+     "type": "lab",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "ELE202-w8-midterm-exam",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w8",
+     "date": "2026-03-03",
+     "time": null,
+     "precision": "exact",
+     "weights": {
+      "default": 26
+     }
+    },
+    {
+     "id": "ELE202-w9-tutorial-4-quiz-4",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Tutorial 4 & Quiz 4",
+     "type": "quiz",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2
+     }
+    },
+    {
+     "id": "ELE202-w10-lab-6-transient-response-of-first-order-",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Lab 6: Transient Response of First Order R-C and R-L Circ...",
+     "type": "lab",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "ELE202-w11-lab-7-sinusodial-steady-state-response-o",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Lab 7: Sinusodial Steady-State Response of Simple R-C and...",
+     "type": "lab",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "ELE202-w13-tutorial-6-quiz-5",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Tutorial 6 & Quiz 5",
+     "type": "quiz",
+     "weekId": "w13",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2
+     }
+    },
+    {
+     "id": "ELE202-exam-final-exam",
+     "courseId": "ELE202",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 40
+     }
+    },
+    {
+     "id": "CHY211-w3-orientation-safety-quiz-forms",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Orientation Safety Quiz/Forms",
+     "type": "quiz",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w4-laboratory-techniques-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Laboratory Techniques Report",
+     "type": "lab",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "CHY211-w5-solutions-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Solutions Report",
+     "type": "project",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w7-strong-acid-base-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Strong Acid/Base Report",
+     "type": "project",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w8-hardness-of-water-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Hardness of Water Report",
+     "type": "project",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w9-calorimetry-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Calorimetry Report",
+     "type": "project",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w10-tmu-svu-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "TMU-SVU Report",
+     "type": "project",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w11-kinetics-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Kinetics Report",
+     "type": "project",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-w12-solubility-report",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Solubility Report",
+     "type": "project",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9.38
+     }
+    },
+    {
+     "id": "CHY211-exam-written-lab-exam",
+     "courseId": "CHY211",
+     "programId": "winter",
+     "title": "Written Lab Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 25
+     }
+    },
+    {
+     "id": "CVL207-w4-lab-1-orthographic-and-isometric-view",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 1: Orthographic (and Isometric) View",
+     "type": "lab",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w5-lab-2-orthographic-and-isometric-views",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 2: Orthographic and Isometric Views",
+     "type": "lab",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w6-lab-3-sketching-in-autocad",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 3: Sketching in AutoCAD",
+     "type": "lab",
+     "weekId": "w6",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w7-lab-4-arcs-circles-and-dimensions-in-aut",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 4: Arcs Circles and Dimensions in AutoCAD",
+     "type": "lab",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w7-midterm-exam",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w7",
+     "date": "2026-02-24",
+     "time": "15:00",
+     "precision": "exact",
+     "weights": {
+      "default": 25
+     }
+    },
+    {
+     "id": "CVL207-w8-lab-5-dimensions-and-sections",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 5: Dimensions and sections",
+     "type": "lab",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w9-lab-6-architectural-plans-and-cross-sect",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 6: Architectural Plans and Cross Sections",
+     "type": "lab",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w10-lab-7-3d-modeling-in-autocad",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 7: 3D modeling in AutoCAD",
+     "type": "lab",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w11-lab-8-3d-modeling-cont-d",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 8: 3D modeling (cont’d)",
+     "type": "lab",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-w12-lab-9-3d-modelling-with-solids-and-mater",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Lab 9: 3D Modelling with Solids and Materials",
+     "type": "lab",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.22
+     }
+    },
+    {
+     "id": "CVL207-exam-final-exam",
+     "courseId": "CVL207",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 40
+     }
+    },
+    {
+     "id": "CPS188-w3-lab-1",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 1",
+     "type": "lab",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w4-lab-2",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 2",
+     "type": "lab",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w5-lab-3",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 3",
+     "type": "lab",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w6-lab-4",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 4",
+     "type": "lab",
+     "weekId": "w6",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w7-lab-5",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 5",
+     "type": "lab",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w8-lab-6",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 6",
+     "type": "lab",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w9-practical-midterm-test",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Practical Midterm Test",
+     "type": "midterm",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 25
+     }
+    },
+    {
+     "id": "CPS188-w10-lab-7",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 7",
+     "type": "lab",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-w11-term-project",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Term Project",
+     "type": "project",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 10
+     }
+    },
+    {
+     "id": "CPS188-w12-lab-8",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Lab 8",
+     "type": "lab",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS188-exam-final-exam",
+     "courseId": "CPS188",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 25
+     }
+    },
+    {
+     "id": "AER222-w2-assignment-1",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Assignment 1",
+     "type": "assignment",
+     "weekId": "w2",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.5
+     }
+    },
+    {
+     "id": "AER222-w3-project-design-statement",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Project Design Statement",
+     "type": "project",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 12.5
+     }
+    },
+    {
+     "id": "AER222-w5-assignment-2",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Assignment 2",
+     "type": "assignment",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.5
+     }
+    },
+    {
+     "id": "AER222-w7-midterm-exam",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w7",
+     "date": "2026-02-24",
+     "time": null,
+     "precision": "exact",
+     "weights": {
+      "default": 20
+     }
+    },
+    {
+     "id": "AER222-w8-assignment-3",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Assignment 3",
+     "type": "assignment",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.5
+     }
+    },
+    {
+     "id": "AER222-w10-assignment-4",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Assignment 4",
+     "type": "assignment",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 2.5
+     }
+    },
+    {
+     "id": "AER222-w12-catia-test",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "CATIA Test",
+     "type": "midterm",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 10
+     }
+    },
+    {
+     "id": "AER222-w12-project-report",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Project Report",
+     "type": "project",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 12.5
+     }
+    },
+    {
+     "id": "AER222-w13-project-presentation",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Project Presentation",
+     "type": "project",
+     "weekId": "w13",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "AER222-exam-final-exam",
+     "courseId": "AER222",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 20
+     }
+    },
+    {
+     "id": "PCS125-w2-lab-1-simple-harmonic-motion",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Lab 1: Simple Harmonic Motion",
+     "type": "lab",
+     "weekId": "w2",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "PCS125-w4-lab-2-sound-waves-and-beats-subject-to-c",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Lab 2: Sound Waves and Beats (subject to change)",
+     "type": "lab",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "PCS125-w6-lab-3-standing-waves",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Lab 3: Standing Waves",
+     "type": "lab",
+     "weekId": "w6",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "PCS125-w8-lab-4-electric-potential",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Lab 4: Electric Potential",
+     "type": "lab",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "PCS125-w8-midterm-exam",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w8",
+     "date": "2026-03-06",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "default": 28
+     }
+    },
+    {
+     "id": "PCS125-w10-lab-5-charge-to-mass-ratio-of-the-electr",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Lab 5: Charge-to-Mass Ratio of the Electron",
+     "type": "lab",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4
+     }
+    },
+    {
+     "id": "PCS125-exam-final-exam",
+     "courseId": "PCS125",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 35
+     }
+    },
+    {
+     "id": "MTL200-w9-midterm-exam",
+     "courseId": "MTL200",
+     "programId": "winter",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w9",
+     "date": "2026-03-13",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "default": 20
+     }
+    },
+    {
+     "id": "MTL200-exam-final-exam",
+     "courseId": "MTL200",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 55
+     }
+    },
+    {
+     "id": "ECN801-w7-midterm-1",
+     "courseId": "ECN801",
+     "programId": "winter",
+     "title": "Midterm 1",
+     "type": "midterm",
+     "weekId": "w7",
+     "date": "2026-02-22",
+     "time": "15:00",
+     "precision": "exact",
+     "weights": {
+      "default": 15
+     }
+    },
+    {
+     "id": "ECN801-w10-midterm-2",
+     "courseId": "ECN801",
+     "programId": "winter",
+     "title": "Midterm 2",
+     "type": "midterm",
+     "weekId": "w10",
+     "date": "2026-03-22",
+     "time": "15:00",
+     "precision": "exact",
+     "weights": {
+      "default": 20
+     }
+    },
+    {
+     "id": "ECN801-w13-practice-final-exam",
+     "courseId": "ECN801",
+     "programId": "winter",
+     "title": "Practice Final Exam",
+     "type": "exam",
+     "weekId": "w13",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "notes": "Not for marks",
+     "weights": {
+      "default": 0
+     }
+    },
+    {
+     "id": "ECN801-exam-final-exam",
+     "courseId": "ECN801",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 32.5
+     }
+    },
+    {
+     "id": "BME100-w11-each-group-must-present-the-findings-of-",
+     "courseId": "BME100",
+     "programId": "winter",
+     "title": "Each group must present the findings of their project in ...",
+     "type": "project",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "CHE200-w8-midterm-exam",
+     "courseId": "CHE200",
+     "programId": "winter",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w8",
+     "date": "2026-03-05",
+     "time": "12:00",
+     "precision": "exact",
+     "weights": {
+      "default": 35
+     }
+    },
+    {
+     "id": "CHE200-exam-final-exam",
+     "courseId": "CHE200",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 35
+     }
+    },
+    {
+     "id": "CPS125-w3-lab-1",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 1",
+     "type": "lab",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w4-lab-2",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 2",
+     "type": "lab",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w5-lab-3",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 3",
+     "type": "lab",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w6-lab-4",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 4",
+     "type": "lab",
+     "weekId": "w6",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w7-lab-5",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 5",
+     "type": "lab",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w8-practical-midterm-test",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Practical Midterm Test",
+     "type": "midterm",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 30
+     }
+    },
+    {
+     "id": "CPS125-w9-lab-6",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 6",
+     "type": "lab",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w9-term-project-posted",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Term Project Posted",
+     "type": "project",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "CPS125-w10-lab-7",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 7",
+     "type": "lab",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w11-lab-8",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 8",
+     "type": "lab",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w12-lab-9",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Lab 9",
+     "type": "lab",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.11
+     }
+    },
+    {
+     "id": "CPS125-w12-term-project",
+     "courseId": "CPS125",
+     "programId": "winter",
+     "title": "Term Project",
+     "type": "project",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 5
+     }
+    },
+    {
+     "id": "MEC222-w2-manual-studio-1",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Studio 1",
+     "type": "lab",
+     "weekId": "w2",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w3-cad-lab-1",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "CAD Lab 1",
+     "type": "lab",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9
+     }
+    },
+    {
+     "id": "MEC222-w4-manual-studio-2",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Studio 2",
+     "type": "lab",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w5-cad-lab-2",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "CAD Lab 2",
+     "type": "lab",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9
+     }
+    },
+    {
+     "id": "MEC222-w6-manual-studio-3",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Studio 3",
+     "type": "lab",
+     "weekId": "w6",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w6-midterm-test-1",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Midterm Test 1",
+     "type": "midterm",
+     "weekId": "w6",
+     "date": "2026-02-13",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "default": 15
+     }
+    },
+    {
+     "id": "MEC222-w7-cad-lab-3",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "CAD Lab 3",
+     "type": "lab",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9
+     }
+    },
+    {
+     "id": "MEC222-w8-manual-studio-4",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Studio 4",
+     "type": "lab",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w9-cad-lab-4",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "CAD Lab 4",
+     "type": "lab",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 9
+     }
+    },
+    {
+     "id": "MEC222-w9-cad-assessment",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "CAD Assessment",
+     "type": "project",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w10-manual-studio-5",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Studio 5",
+     "type": "lab",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w10-manual-assignment",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Assignment",
+     "type": "assignment",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-w11-midterm-term-test-2-cad",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Midterm Term Test 2: CAD",
+     "type": "midterm",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 15
+     }
+    },
+    {
+     "id": "MEC222-w12-manual-studio-6",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Manual Studio 6",
+     "type": "lab",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": null
+     }
+    },
+    {
+     "id": "MEC222-exam-final-exam",
+     "courseId": "MEC222",
+     "programId": "winter",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "transition",
+   "name": "Engineering transition semester",
+   "year": 2026,
+   "courses": [
+    {
+     "id": "CHY102",
+     "code": "CHY 102",
+     "programId": "transition",
+     "options": [
+      {
+       "id": "opt1",
+       "label": "Option 1"
+      },
+      {
+       "id": "opt2",
+       "label": "Option 2"
+      },
+      {
+       "id": "opt3",
+       "label": "Option 3"
+      },
+      {
+       "id": "opt4",
+       "label": "Option 4"
+      }
+     ]
+    },
+    {
+     "id": "PCS211",
+     "code": "PCS 211",
+     "programId": "transition"
+    },
+    {
+     "id": "MTH140",
+     "code": "MTH 140",
+     "programId": "transition"
+    },
+    {
+     "id": "MTH141",
+     "code": "MTH 141",
+     "programId": "transition"
+    }
+   ],
+   "weeks": [
+    {
+     "id": "w1",
+     "label": "Week 1",
+     "kind": "week",
+     "start": "2026-01-05",
+     "end": "2026-01-11"
+    },
+    {
+     "id": "w2",
+     "label": "Week 2",
+     "kind": "week",
+     "start": "2026-01-12",
+     "end": "2026-01-18"
+    },
+    {
+     "id": "w3",
+     "label": "Week 3",
+     "kind": "week",
+     "start": "2026-01-19",
+     "end": "2026-01-25"
+    },
+    {
+     "id": "w4",
+     "label": "Week 4",
+     "kind": "week",
+     "start": "2026-01-26",
+     "end": "2026-02-01"
+    },
+    {
+     "id": "w5",
+     "label": "Week 5",
+     "kind": "week",
+     "start": "2026-02-02",
+     "end": "2026-02-08"
+    },
+    {
+     "id": "w6",
+     "label": "Week 6",
+     "kind": "week",
+     "start": "2026-02-09",
+     "end": "2026-02-15"
+    },
+    {
+     "id": "reading",
+     "label": "Reading week",
+     "kind": "reading",
+     "start": "2026-02-16",
+     "end": "2026-02-22"
+    },
+    {
+     "id": "w7",
+     "label": "Week 7",
+     "kind": "week",
+     "start": "2026-02-23",
+     "end": "2026-03-01"
+    },
+    {
+     "id": "w8",
+     "label": "Week 8",
+     "kind": "week",
+     "start": "2026-03-02",
+     "end": "2026-03-08"
+    },
+    {
+     "id": "w9",
+     "label": "Week 9",
+     "kind": "week",
+     "start": "2026-03-09",
+     "end": "2026-03-15"
+    },
+    {
+     "id": "w10",
+     "label": "Week 10",
+     "kind": "week",
+     "start": "2026-03-16",
+     "end": "2026-03-22"
+    },
+    {
+     "id": "w11",
+     "label": "Week 11",
+     "kind": "week",
+     "start": "2026-03-23",
+     "end": "2026-03-29"
+    },
+    {
+     "id": "w12",
+     "label": "Week 12",
+     "kind": "week",
+     "start": "2026-03-30",
+     "end": "2026-04-05"
+    },
+    {
+     "id": "w13",
+     "label": "Week 13",
+     "kind": "week",
+     "start": "2026-04-06",
+     "end": "2026-04-12"
+    },
+    {
+     "id": "exam",
+     "label": "Exam period",
+     "kind": "exam",
+     "start": "2026-04-13",
+     "end": "2026-04-25"
+    }
+   ],
+   "assessments": [
+    {
+     "id": "CHY102-w2-online-quiz-intro-to-chy-102",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Online Quiz – Intro to CHY 102",
+     "type": "quiz",
+     "weekId": "w2",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 1.67,
+      "opt2": 1.67,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w3-homework-1-2-chapters-1-2",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 1&2: Chapters 1 & 2",
+     "type": "assignment",
+     "weekId": "w3",
+     "date": "2026-01-19",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w3-in-person-quiz-1-chapters-1-and-2",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "In-Person Quiz 1 – Chapters 1 and 2",
+     "type": "quiz",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 1.67,
+      "opt2": 1.67,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w4-homework-3-chapter-3",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 3: Chapter 3",
+     "type": "assignment",
+     "weekId": "w4",
+     "date": "2026-01-26",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w5-homework-4-chapters-4",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 4: Chapters 4",
+     "type": "assignment",
+     "weekId": "w5",
+     "date": "2026-02-02",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w5-in-person-quiz-2-chapters-3-and-4",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "In-Person Quiz 2 – Chapters 3 and 4",
+     "type": "quiz",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 1.67,
+      "opt2": 1.67,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w6-homework-5-chapter-6",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 5: Chapter 6",
+     "type": "assignment",
+     "weekId": "w6",
+     "date": "2026-02-09",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w6-midterm-1",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Midterm 1",
+     "type": "midterm",
+     "weekId": "w6",
+     "date": "2026-02-13",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "opt1": 25,
+      "opt2": 25,
+      "opt3": 22.5,
+      "opt4": 22.5
+     }
+    },
+    {
+     "id": "CHY102-w7-homework-6-chapter-5",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 6: Chapter 5",
+     "type": "assignment",
+     "weekId": "w7",
+     "date": "2026-02-23",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w8-homework-7-chapter-11",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 7: Chapter 11",
+     "type": "assignment",
+     "weekId": "w8",
+     "date": "2026-03-02",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w8-in-person-quiz-3-chapters-5-and-11",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "In-Person Quiz 3 – Chapters 5 and 11",
+     "type": "quiz",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 1.67,
+      "opt2": 1.67,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w9-homework-8-chapter-12",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 8: Chapter 12",
+     "type": "assignment",
+     "weekId": "w9",
+     "date": "2026-03-09",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w10-homework-9-chapter-13",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 9: Chapter 13",
+     "type": "assignment",
+     "weekId": "w10",
+     "date": "2026-03-16",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w10-in-person-quiz-4-chapters-12-and-13",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "In-Person Quiz 4 – Chapters 12 and 13",
+     "type": "quiz",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 1.67,
+      "opt2": 1.67,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w11-homework-10-chapter-14",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 10: Chapter 14",
+     "type": "assignment",
+     "weekId": "w11",
+     "date": "2026-03-23",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w11-midterm-2",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Midterm 2",
+     "type": "midterm",
+     "weekId": "w11",
+     "date": "2026-03-27",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "opt1": 25,
+      "opt2": 25,
+      "opt3": 22.5,
+      "opt4": 22.5
+     }
+    },
+    {
+     "id": "CHY102-w12-homework-11-chapter-15",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 11: Chapter 15",
+     "type": "assignment",
+     "weekId": "w12",
+     "date": "2026-03-30",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w13-homework-12-chapter-16",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 12: Chapter 16",
+     "type": "assignment",
+     "weekId": "w13",
+     "date": "2026-04-06",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w13-homework-13-chapter-17",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 13: Chapter 17",
+     "type": "assignment",
+     "weekId": "w13",
+     "date": "2026-04-10",
+     "time": "23:59",
+     "precision": "exact",
+     "weights": {
+      "opt1": 0.77,
+      "opt2": 0,
+      "opt3": 0.77,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-w13-in-person-quiz-5-chapters-15-and-16",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "In-Person Quiz 5 – Chapters 15 and 16",
+     "type": "quiz",
+     "weekId": "w13",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 1.67,
+      "opt2": 1.67,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-exam-homework-14-chapter-18",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Homework 14: Chapter 18",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": "23:59",
+     "precision": "week",
+     "notes": "Not for marks",
+     "weights": {
+      "opt1": 0,
+      "opt2": 0,
+      "opt3": 0,
+      "opt4": 0
+     }
+    },
+    {
+     "id": "CHY102-exam-final-exam",
+     "courseId": "CHY102",
+     "programId": "transition",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "opt1": 25,
+      "opt2": 35,
+      "opt3": 40,
+      "opt4": 55
+     }
+    },
+    {
+     "id": "PCS211-w3-lab-1-errors-in-simple-measurements",
+     "courseId": "PCS211",
+     "programId": "transition",
+     "title": "Lab 1:Errors in Simple Measurements",
+     "type": "lab",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4.8
+     }
+    },
+    {
+     "id": "PCS211-w5-lab-2-graphical-analysis-of-kinematics",
+     "courseId": "PCS211",
+     "programId": "transition",
+     "title": "Lab 2: Graphical Analysis of Kinematics",
+     "type": "lab",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4.8
+     }
+    },
+    {
+     "id": "PCS211-w7-lab-3-newton-s-second-law",
+     "courseId": "PCS211",
+     "programId": "transition",
+     "title": "Lab 3: Newton's Second Law",
+     "type": "lab",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4.8
+     }
+    },
+    {
+     "id": "PCS211-w8-midterm-exam",
+     "courseId": "PCS211",
+     "programId": "transition",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w8",
+     "date": "2026-03-06",
+     "time": "18:30",
+     "precision": "exact",
+     "weights": {
+      "default": 30
+     }
+    },
+    {
+     "id": "PCS211-w9-lab-4-centripetal-force",
+     "courseId": "PCS211",
+     "programId": "transition",
+     "title": "Lab 4: Centripetal Force",
+     "type": "lab",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4.8
+     }
+    },
+    {
+     "id": "PCS211-w11-lab-5-conservation-of-momentum",
+     "courseId": "PCS211",
+     "programId": "transition",
+     "title": "Lab 5: Conservation of Momentum",
+     "type": "lab",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 4.8
+     }
+    },
+    {
+     "id": "MTH140-w2-lab-quiz-1",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 1",
+     "type": "quiz",
+     "weekId": "w2",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w3-lab-quiz-2",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 2",
+     "type": "quiz",
+     "weekId": "w3",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w4-lab-quiz-3",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 3",
+     "type": "quiz",
+     "weekId": "w4",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w5-lab-quiz-4",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 4",
+     "type": "quiz",
+     "weekId": "w5",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w6-midterm-exam",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Midterm Exam",
+     "type": "midterm",
+     "weekId": "w6",
+     "date": "2026-02-13",
+     "time": "18:00",
+     "precision": "exact",
+     "weights": {
+      "default": 35
+     }
+    },
+    {
+     "id": "MTH140-w7-lab-quiz-5",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 5",
+     "type": "quiz",
+     "weekId": "w7",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w8-lab-quiz-6",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 6",
+     "type": "quiz",
+     "weekId": "w8",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w9-lab-quiz-7",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 7",
+     "type": "quiz",
+     "weekId": "w9",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w10-lab-quiz-8",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 8",
+     "type": "quiz",
+     "weekId": "w10",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w11-lab-quiz-9",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 9",
+     "type": "quiz",
+     "weekId": "w11",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w12-lab-quiz-10",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 10",
+     "type": "quiz",
+     "weekId": "w12",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-w13-lab-quiz-11",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Lab Quiz 11",
+     "type": "quiz",
+     "weekId": "w13",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 1.82
+     }
+    },
+    {
+     "id": "MTH140-exam-final-exam",
+     "courseId": "MTH140",
+     "programId": "transition",
+     "title": "Final Exam",
+     "type": "exam",
+     "weekId": "exam",
+     "date": null,
+     "time": null,
+     "precision": "week",
+     "weights": {
+      "default": 45
+     }
+    },
+    {
+     "id": "MTH141-w7-midterm-1",
+     "courseId": "MTH141",
+     "programId": "transition",
+     "title": "Midterm 1",
+     "type": "midterm",
+     "weekId": "w7",
+     "date": "2026-02-23",
+     "time": "12:10",
+     "precision": "exact",
+     "weights": {
+      "default": 30
+     }
+    },
+    {
+     "id": "MTH141-w11-midterm-2",
+     "courseId": "MTH141",
+     "programId": "transition",
+     "title": "Midterm 2",
+     "type": "midterm",
+     "weekId": "w11",
+     "date": "2026-03-23",
+     "time": "12:10",
+     "precision": "exact",
+     "weights": {
+      "default": 30
+     }
+    }
+   ]
+  }
+ ]
+}
