@@ -1,5 +1,5 @@
 {
- "dataVersion": "2026-10-15",
+ "dataVersion": "2026-10-16",
  "programs": [
   {
    "id": "winter",
@@ -191,7 +191,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -205,7 +205,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -219,7 +219,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -247,7 +247,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -261,7 +261,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -275,7 +275,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -303,7 +303,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -331,7 +331,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -345,7 +345,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -359,7 +359,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
@@ -387,7 +387,7 @@
      "time": "23:55",
      "precision": "exact",
      "weights": {
-      "default": 0.91
+      "default": 1
      }
     },
     {
