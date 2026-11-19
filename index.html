@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CEN100 Assignment Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- CSS-only hamburger toggle (must come before the elements it controls) -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-icon" aria-hidden="true">
+        <img src="images/newcalculatorlogo.png" alt="Calculator_logo" style="height: 50px;">
+      </span>
+      <h1>CEN100 Assignment Calculator</h1>
+    </div>
+    <label for="menu-toggle" class="hamburger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+  </header>
+
+  <!-- All links live in one wrapper so mobile can fold them into the hamburger -->
+  <nav class="menu" aria-label="Site links">
+
+    <div class="top-links">
+      <a href="#" class="btn btn-yellow">📅 Significant Dates Calendar</a>
+      <a href="#" class="btn btn-yellow">📍 First-Year Engineering Office</a>
+      <a href="#" class="btn btn-yellow">❓ FAQs</a>
+    </div>
+
+    <aside class="side side-left">
+      <section class="panel panel-purple">
+        <h2>📚 Academic Support</h2>
+        <a href="https://www.torontomu.ca/first-year-engineering-office/academic-support/engineering-aces/" class="btn btn-yellow">Engineering ACES</a>
+        <a href="https://www.torontomu.ca/student-life-and-learning/learning-support/math-support/" class="btn btn-yellow">SLLS Math Tutoring</a>
+        <a href="https://www.torontomu.ca/first-year-engineering-office/academic-support/student-learning-support/" class="btn btn-blue">FYEO Learning Resources</a>
+        <a href="https://www.cs.ryerson.ca/~h9saini/FYEO/gpa/ccal.php" class="btn btn-blue">GPA Calculator</a>
+        <a href="https://www.youtube.com/playlist?list=PL81FaJT60qwfXpTbXWY0LCbeONVzfpEmj" class="btn btn-blue">FYEO YouTube Guides</a>
+      </section>
+
+      <section class="panel panel-purple">
+        <h2>🎓 Course Planning Support</h2>
+        <a href="https://www.torontomu.ca/first-year-engineering-office/academic-support/academic-advising/" class="btn btn-yellow">Book an Advising appointment</a>
+        <a href="https://docs.google.com/spreadsheets/d/1jTT4oUe_qOOQ6A4qPqcBYrdk4dnbzGCo6NJT6ZHU8Js/edit?gid=1592973167#gid=1592973167" class="btn btn-yellow">FYEO Workload Calendar</a>
+        <a href="https://docs.google.com/document/d/1U1pZkdf9pdaMgoWZuWzx5oP8bMG9GuEzyqk9oEb4S0E/edit?tab=t.0" class="btn btn-blue">FYEO Exam Tips</a>
+        <a href="https://www.torontomu.ca/engineering-architectural-science/current-students/current-undergraduate/transition-program/" class="btn btn-blue">Transition Program</a>
+        <a href="https://www.torontomu.ca/first-year-engineering-office/academic-support/academic-support/#:~:text=Programs%20for%20Academic%20Success&text=First%20Year%20in%20Two%20Years,courses%20over%20two%20academic%20years" class="btn btn-blue">First-Year in Two</a>
+      </section>
+    </aside>
+
+    <aside class="side side-right">
+      <section class="panel panel-white">
+        <h2>➕ Additional Support</h2>
+        <a href="https://www.torontomu.ca/first-year-engineering-office/current-students/eng-handbook/" class="btn btn-yellow">Student Handbook</a>
+        <a href="https://www.torontomu.ca/first-year-engineering-office/orientation/first-year-ambassadors/" class="btn btn-blue">First-Year Ambassador</a>
+      </section>
+
+      <div class="download-btn-container">
+        <!-- App Store Button -->
+        <button class="download-btn" aria-label="App store link" onclick="window.open('https://apps.apple.com/ca/app/fyeng-mobile/id6749859039', '_blank')">
+          <img src="images/app_store_btn.png" alt="app_store_btn" >
+        </button>
+        
+        <!-- Google Play Button -->
+        <button class="download-btn" aria-label="Play store link" onclick="window.open('https://play.google.com/store/apps/details?id=com.fyengtmu.fyeng', '_blank')">
+          <img src="images/google_play_btn.png" alt="Google Play Store btn">
+        </button>
+      </div>
+
+      <!-- <section class="panel panel-white">
+        <h2>Download the FYEng App</h2>
+        <div class="store-badges">
+          <a href="#" class="store-badge"><small>Download on the</small><strong> App Store</strong></a>
+          <a href="#" class="store-badge"><small>GET IT ON</small><strong>▶ Google Play</strong></a>
+        </div>
+        <div class="app-banner">First-Year Engineering Office</div>
+      </section> -->
+    </aside>
+  </nav>
+
+  <main class="content">
+    <h2 class="welcome">Welcome!</h2>
+    <p class="intro">
+      Pick your assignment, start date, and due date to receive a customized plan that
+      keeps you on track and ensures you complete every step for the best possible grade!
+    </p>
+
+    <!-- <div class="notice">
+      <span class="notice-icon" aria-hidden="true">⚠️</span>
+      <div>
+        <p><strong>Check your syllabus!</strong> Due dates can shift from year to year. Please confirm the dates match your current semester's schedule.</p>
+        <p>Listed assignments are based on the <strong>Fall 2025 Course Outline</strong> and are subject to change.</p>
+      </div>
+    </div> -->
+
+    <div id="selection-view">
+    <input type="radio" id="cat-winter" name="category" class="cat-radio" checked>
+      <input type="radio" id="cat-transition" name="category" class="cat-radio">
+
+      <div class="category-tabs">
+        <label for="cat-winter" class="tab">Winter</label>
+        <label for="cat-transition" class="tab">Engineering Transition Program</label>
+      </div>
+
+    <form class="course-form" action="#">
+      <fieldset class="course-group group-winter">
+        <legend class="sr-only">Winter courses</legend>
+        <div class="course-grid">
+          <input type="checkbox" id="add-winter" class="modal-toggle" aria-label="Add a winter course">
+          <label for="add-winter" class="add-tile"><span class="plus" aria-hidden="true">+</span> Add course</label>
+          <div class="modal" role="dialog" aria-label="Add a course">
+            <label for="add-winter" class="modal-backdrop" aria-hidden="true"></label>
+            <div class="modal-box">
+              <h3>Add a course</h3>
+              <label for="code-winter">Course code</label>
+              <input type="text" id="code-winter" placeholder="e.g. MATH 1000">
+              <label for="name-winter">Course name</label>
+              <input type="text" id="name-winter" placeholder="e.g. Calculus I">
+              <fieldset class="assess-fieldset">
+                <legend>Assessments (optional)</legend>
+                <div class="assess-list" id="assess-winter"></div>
+                <button type="button" class="btn btn-add-assess" data-category="winter">+ Add assessment</button>
+              </fieldset>
+              <div class="modal-actions">
+                <label for="add-winter" class="btn modal-cancel">Cancel</label>
+                <label for="add-winter" class="btn btn-yellow modal-confirm">Add course</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="course-group group-transition">
+        <legend class="sr-only">Engieering Transition Program courses</legend>
+        <div class="course-grid">
+          <input type="checkbox" id="add-transition" class="modal-toggle" aria-label="Add a engineering transition course">
+          <label for="add-transition" class="add-tile"><span class="plus" aria-hidden="true">+</span> Add course</label>
+          <div class="modal" role="dialog" aria-label="Add a course">
+            <label for="add-transition" class="modal-backdrop" aria-hidden="true"></label>
+            <div class="modal-box">
+              <h3>Add a course</h3>
+              <label for="code-transition">Course code</label>
+              <input type="text" id="code-transition" placeholder="e.g. MATH 1000">
+              <label for="name-transition">Course name</label>
+              <input type="text" id="name-transition" placeholder="e.g. Calculus I">
+              <fieldset class="assess-fieldset">
+                <legend>Assessments (optional)</legend>
+                <div class="assess-list" id="assess-transition"></div>
+                <button type="button" class="btn btn-add-assess" data-category="transition">+ Add assessment</button>
+              </fieldset>
+              <div class="modal-actions">
+                <label for="add-transition" class="btn modal-cancel">Cancel</label>
+                <label for="add-transition" class="btn btn-yellow modal-confirm">Add course</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <p class="course-hint">Select as many courses as you like, but only from one category. To switch categories, clear your selection first.</p>
+      <div class="actions">
+        <button type="reset" class="btn clear">Clear selection</button>
+        <button type="button" class="btn btn-yellow calculate">Calculate workload</button>
+      </div>
+    </form>
+    </div>
+
+    <section id="workload-view" class="workload-view" hidden aria-live="polite">
+      <div class="workload-actions">
+        <button type="button" class="btn btn-edit" id="edit-courses">&larr; Edit courses</button>
+        <button type="button" class="btn btn-edit" id="toggle-evaluation" aria-pressed="false">Show course evaluation</button>
+      </div>
+      <p class="workload-summary" id="workload-summary"></p>
+      <div id="workload-results"></div>
+      <div id="evaluation-results" hidden></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
