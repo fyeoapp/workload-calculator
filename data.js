@@ -1229,9 +1229,7 @@ window.COURSE_DATA = {
           "description": "Final Exam"
         }
       ]
-    }
-  ],
-  "transition": [
+    },
     {
       "code": "CHY 102",
       "name": "General Chemistry Laboratory",
@@ -1600,7 +1598,7 @@ window.COURSE_DATA = {
     },
     {
       "code": "MTH 141",
-      "name": "Calculus 1",
+      "name": "Linear Algebra",
       "workload": [
         {
           "week": 7,
@@ -1632,9 +1630,7 @@ window.COURSE_EVALUATIONS = {
     "BME 100": "Evaluation Breakdown:\n\nTheory\nLecture and Lab/Tutorial Participation: - 40%\n\nLaboratory\nProject Report (Written Component) - 35%\nProject Presentation (Oral Component) - 15%\nProject Slide Deck (Poster) - 10%\n\nNote: To pass the course, students must achieve a minimum overall grade of 50%. For courses with both Theory and Laboratory components, a minimum of 50% is required in each component separately.\n\nPlease check D2L for specifc dates on Labs, Tutorials, Midterms, and the Final Project",
     "CHE 200": "Evaluation Breakdown:\nAssignments - 10%\nUnscheduled quizzes - 20%\nMidterm Exam - 35%\nFinal Exam - 35%\n\nPlease check D2L for specifc dates on assignments, midterms and experiments",
     "CPS 125": "Evaluation Breakdown:\nLabs - 10%\nTerm Project - 10%\nMidterm Test - 30%\nFinal Examination - 50%\n\nNote: To pass the course, students must obtain an 80% grade in at least 2/3 of the labs in addition to an overall 50% grade in the course.\n\nPlease check D2L for specifc dates on assignments, midterms and experiments",
-    "MEC 222": "Evaluation Breakdown:\nMidterm Test 1 - 15%\nMidterm Test 2 - 15%\nAcademic Integrity Reviews - 4%\nLab Work - 36%\nFinal Examination- 30%\n\nNote: To pass the course, students must achieve a minimum overall grade of 50%. For courses with both Theory and Laboratory components, a minimum of 50% is required in each component separately.\n\nPlease check D2L for specifc dates on assignments, midterms and experiments"
-  },
-  "transition": {
+    "MEC 222": "Evaluation Breakdown:\nMidterm Test 1 - 15%\nMidterm Test 2 - 15%\nAcademic Integrity Reviews - 4%\nLab Work - 36%\nFinal Examination- 30%\n\nNote: To pass the course, students must achieve a minimum overall grade of 50%. For courses with both Theory and Laboratory components, a minimum of 50% is required in each component separately.\n\nPlease check D2L for specifc dates on assignments, midterms and experiments",
     "CHY 102": "Evaluation Breakdown:\n\nOption 1\nIn-Class Participation - 5%\nTwo-Stage In-Class Quizzes (Best 4 of 5) - 10%\nHomework - 10%\n2 In-Person Midterms - 50%\nFinal Exam - 25%\n\nOption 2\nIn-Class Participation - 5%\nTwo-Stage In-Class Quizzes (Best 4 of 5) - 10%\nHomework - 0%\n2 In-Person Midterms - 50%\nFinal Exam - 35%\n\nOption 3\nIn-Class Participation - 0%\nTwo-Stage In-Class Quizzes (Best 4 of 5) - 0%\nHomework - 10%\n2 In-Person Midterms - 45%\nFinal Exam - 40%\n\nOption 4\nIn-Class Participation - 0%\nTwo-Stage In-Class Quizzes (Best 4 of 5) - 0%\nHomework - 0%\n2 In-Person Midterms - 45%\nFinal Exam - 55%\n\nPlease check D2L for specifc dates on assignments, midterms and experiments",
     "PCS 211": "Evaluation Breakdown:\n\nTheory\nMidterm - 30%\nTutorial Quizzes (5 x 2%) - 10%\nFInal Examination - 33%\n\nLaboratory\nLabs (6 x 4%) - 24%\n\nWebAssign (optional) - 5%\niClicker (optional) - 2%\n\nNote: To pass the course, students must achieve a minimum overall grade of 50%. For courses with both Theory and Laboratory components, a minimum of 50% is required in each component separately.\n\nNote: Students who do not wish to purchase WebAssign or use iClicker will have the 5% and 2% portion of the grade moved to the final examination.\n\nPlease check D2L for specifc dates on assignments, midterms and experiments",
     "MTH 140": "Evaluation Breakdown:\n\nLab Quizzes (weekly) - 20%\nMidterm - 35%\nFInal Examination - 45%\n\nPlease check D2L for specifc dates on assignments, midterms and experiments",

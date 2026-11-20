@@ -11,6 +11,15 @@ const worksheet = workbook.Sheets[workbook.SheetNames[0]];
 
 const rawRows = XLSX.utils.sheet_to_json(worksheet, { raw: false, defval: "" });
 
+// Term labels in the sheet are mapped onto a single "winter" key. The former
+// Engineering Transition courses (CHY 102, MTH 140, MTH 141, PCS 211) are now
+// shown as "Semester 1" in the same Winter list, so they are folded in here.
+function normalizeTerm(value) {
+  const t = String(value || '').trim().toLowerCase();
+  if (t.startsWith('winter') || t.includes('transition')) return 'winter';
+  return t;
+}
+
 // 2. Group flat rows into the nested structure
 const courseData = {};
 
@@ -21,7 +30,7 @@ rawRows.forEach((rawRow) => {
     row[key.trim().toLowerCase()] = rawRow[key];
   }
 
-  const term = String(row.term || '').trim().toLowerCase();
+  const term = normalizeTerm(row.term);
   const code = String(row.course || '').trim();
 
   // Skip empty rows
@@ -60,16 +69,6 @@ const evaluationData = {};
 const evalSheetName =
   workbook.SheetNames.find((n) => n.trim().toLowerCase().includes('evaluation')) ||
   workbook.SheetNames[1];
-
-// Term should be "winter" or "transition". Older copies of the sheet used longer
-// labels ("Winter 2025 Semester 2 Courses", "Engineering Transition Semester"),
-// so those are mapped onto the same two keys.
-function normalizeTerm(value) {
-  const t = String(value || '').trim().toLowerCase();
-  if (t.startsWith('winter')) return 'winter';
-  if (t.includes('transition')) return 'transition';
-  return t;
-}
 
 if (evalSheetName) {
   const evalRows = XLSX.utils.sheet_to_json(workbook.Sheets[evalSheetName], { raw: false, defval: "" });

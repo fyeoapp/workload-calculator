@@ -88,6 +88,11 @@
       Pick your assignment, start date, and due date to receive a customized plan that
       keeps you on track and ensures you complete every step for the best possible grade!
     </p>
+    <p class="instructions">
+      <strong>Select the courses you are taking for the Winter 2027 term</strong> from the list below,
+      then choose <em>Calculate workload</em>. If a course you are taking isn't listed, use the
+      <strong>&ldquo;Add course&rdquo;</strong> button at the bottom of the list to enter it yourself.
+    </p>
 
     <!-- <div class="notice">
       <span class="notice-icon" aria-hidden="true">⚠️</span>
@@ -98,17 +103,9 @@
     </div> -->
 
     <div id="selection-view">
-    <input type="radio" id="cat-winter" name="category" class="cat-radio" checked>
-      <input type="radio" id="cat-transition" name="category" class="cat-radio">
-
-      <div class="category-tabs">
-        <label for="cat-winter" class="tab">Winter</label>
-        <label for="cat-transition" class="tab">Engineering Transition Program</label>
-      </div>
-
     <form class="course-form" action="#">
       <fieldset class="course-group group-winter">
-        <legend class="sr-only">Winter courses</legend>
+        <legend class="sr-only">Winter 2027 courses</legend>
         <div class="course-grid">
           <input type="checkbox" id="add-winter" class="modal-toggle" aria-label="Add a winter course">
           <label for="add-winter" class="add-tile"><span class="plus" aria-hidden="true">+</span> Add course</label>
@@ -134,34 +131,7 @@
         </div>
       </fieldset>
 
-      <fieldset class="course-group group-transition">
-        <legend class="sr-only">Engieering Transition Program courses</legend>
-        <div class="course-grid">
-          <input type="checkbox" id="add-transition" class="modal-toggle" aria-label="Add a engineering transition course">
-          <label for="add-transition" class="add-tile"><span class="plus" aria-hidden="true">+</span> Add course</label>
-          <div class="modal" role="dialog" aria-label="Add a course">
-            <label for="add-transition" class="modal-backdrop" aria-hidden="true"></label>
-            <div class="modal-box">
-              <h3>Add a course</h3>
-              <label for="code-transition">Course code</label>
-              <input type="text" id="code-transition" placeholder="e.g. MATH 1000">
-              <label for="name-transition">Course name</label>
-              <input type="text" id="name-transition" placeholder="e.g. Calculus I">
-              <fieldset class="assess-fieldset">
-                <legend>Assessments (optional)</legend>
-                <div class="assess-list" id="assess-transition"></div>
-                <button type="button" class="btn btn-add-assess" data-category="transition">+ Add assessment</button>
-              </fieldset>
-              <div class="modal-actions">
-                <label for="add-transition" class="btn modal-cancel">Cancel</label>
-                <label for="add-transition" class="btn btn-yellow modal-confirm">Add course</label>
-              </div>
-            </div>
-          </div>
-        </div>
-      </fieldset>
-
-      <p class="course-hint">Select as many courses as you like, but only from one category. To switch categories, clear your selection first.</p>
+      <p class="course-hint">Select as many courses as you like. Use &ldquo;Add course&rdquo; for any course not listed above.</p>
       <div class="actions">
         <button type="reset" class="btn clear">Clear selection</button>
         <button type="button" class="btn btn-yellow calculate">Calculate workload</button>

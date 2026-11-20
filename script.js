@@ -88,28 +88,76 @@
       label.appendChild(remove);
     }
 
+    // Courses the student added themselves get their own heading so they
+    // aren't mistaken for part of a semester list
+    if (options.removable && !grid.querySelector(".semester-heading.added")) {
+      var added = document.createElement("h3");
+      added.className = "semester-heading added";
+      added.textContent = "Added courses";
+      grid.insertBefore(added, toggle);
+    }
+
     grid.insertBefore(checkbox, toggle);
     grid.insertBefore(label, toggle);
+  };
+
+  // Adds a heading (e.g. "Semester 1") before the Add tile
+  window.addSemesterHeading = function (category, text) {
+    var toggle = document.getElementById("add-" + category);
+    var grid = toggle.closest(".course-grid");
+    var h = document.createElement("h3");
+    h.className = "semester-heading";
+    h.textContent = text;
+    grid.insertBefore(h, toggle);
   };
 })();
 
 
-// Build the course tiles: shared courses from data.js, then this user's own
+// Build the course tiles: shared courses from data.js (grouped by semester, in
+// the order below), then this user's own.
 (function () {
   "use strict";
   var data = window.COURSE_DATA || {};
 
-  ["winter", "transition"].forEach(function (category) {
-    if (!document.getElementById("add-" + category)) return;
+  // Display order for the Winter list. Edit here to reorder or regroup.
+  var SEMESTERS = [
+    { heading: "Semester 1", codes: ["CHY 102", "MTH 140", "MTH 141", "PCS 211"] },
+    { heading: "Semester 2", codes: [
+      "AER 222", "BME 100", "CHE 200", "CHY 211", "CPS 125", "CPS 188",
+      "CVL 207", "ELE 202", "ECN 801", "MEC 222", "MTL 200", "MTH 240", "PCS 125"
+    ] }
+  ];
 
-    (data[category] || []).forEach(function (course, i) {
-      window.addCourseTile(category, course, category + "-" + (i + 1));
+  function key(code) { return String(code).replace(/\s+/g, "").toLowerCase(); }
+
+  var category = "winter";
+  if (document.getElementById("add-" + category)) {
+    var courses = data[category] || [];
+    var placed = {};
+    var n = 0;
+
+    SEMESTERS.forEach(function (sem) {
+      window.addSemesterHeading(category, sem.heading);
+      sem.codes.forEach(function (code) {
+        var course = courses.filter(function (c) { return key(c.code) === key(code); })[0];
+        if (!course) return;
+        placed[key(course.code)] = true;
+        n += 1;
+        window.addCourseTile(category, course, category + "-" + n);
+      });
+    });
+
+    // Any course in data.js that isn't in the lists above still shows up, at the end
+    courses.forEach(function (course) {
+      if (placed[key(course.code)]) return;
+      n += 1;
+      window.addCourseTile(category, course, category + "-" + n);
     });
 
     (window.USER_COURSES[category] || []).forEach(function (course, i) {
       window.addCourseTile(category, course, "mine-" + category + "-" + (i + 1), { removable: true });
     });
-  });
+  }
 })();
 
 
@@ -210,7 +258,7 @@
     return out;
   }
 
-  ["winter", "transition"].forEach(function (c) {
+  ["winter"].forEach(function (c) {
     if (document.getElementById("assess-" + c)) resetRows(c);
   });
 
@@ -368,7 +416,7 @@
 
   function selectedCourses() {
     return Array.prototype.map.call(
-      document.querySelectorAll('input[name="winter"]:checked, input[name="transition"]:checked'),
+      document.querySelectorAll('input[name="winter"]:checked'),
       function (el) { return { category: el.name, code: el.value }; }
     );
   }
